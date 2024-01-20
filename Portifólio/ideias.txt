@@ -1,3 +1,0 @@
-fundo branco
-logo e botoes com um border branco, e ao passar mouse fica roxo
-lado esquerdo texto com botao de projetos, lado direito tecnologias
