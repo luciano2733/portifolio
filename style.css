@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img:first-child{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#logo img:last-child{
+    height: 120px;
+    width: 120px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#button a {
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 4px 15px;
+
+}
+
+#button a:hover {
+    background-color: #984DFA;
+    transition: background-color 0.8s ease;
+}
