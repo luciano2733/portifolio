@@ -9,13 +9,17 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         var textLogo = document.getElementById("text-logo");
+        var iconLogo = document.getElementById("icon-logo")
+        var logo = document.getElementById("logo")
 
-        textLogo.addEventListener("mouseover", function() {
+        logo.addEventListener("mouseover", function() {
             textLogo.src = "images/text-logo2.png";
+            iconLogo.src = "images/logo2.png"
         });
 
         textLogo.addEventListener("mouseout", function() {
             textLogo.src = "images/text-logo.png";
+            iconLogo.src = "images/logo.png";
         });
     });
 </script>
@@ -24,7 +28,7 @@
 <body>
     <header>
             <div id="logo">
-                <img src="images/logo.png">
+                <img src="images/logo.png" id="icon-logo">
                 <img src="images/text-logo.png" id="text-logo">
             </div>
             <div id="button">
