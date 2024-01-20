@@ -5,13 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio - Luciano</title>
     <link rel="shortcut icon" type="imagex/png" href="./images/icon.ico">
-    <link rel="stylesheet" type="text/css" href="style.css" 
+    <link rel="stylesheet" type="text/css" href="style.css">
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var textLogo = document.getElementById("text-logo");
+
+        textLogo.addEventListener("mouseover", function() {
+            textLogo.src = "images/text-logo2.png";
+        });
+
+        textLogo.addEventListener("mouseout", function() {
+            textLogo.src = "images/text-logo.png";
+        });
+    });
+</script>
+
 </head>
 <body>
     <header>
             <div id="logo">
                 <img src="images/logo.png">
-                <img src="images/text-logo.png">
+                <img src="images/text-logo.png" id="text-logo">
             </div>
             <div id="button">
                 <a id="button-contact" href="https://wa.me/+5575992546403/?text=textourl" target="_blank">
