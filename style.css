@@ -18,10 +18,86 @@ body {
     0% { opacity: 1; }
     50% { opacity: 0; }
     100% { opacity: 1; }
-  }
+}
 
 #blink {
     animation: blink 1s infinite; 
+}
+
+@keyframes technologie1 {
+    0% {
+        color: black;
+    }
+    30% {
+        color: #00a6ff;
+    }
+    70% {
+        color: #00a6ff;
+    }
+    100% {
+        color: black;
+    }
+}
+
+#technologie1{
+    animation: technologie1 6s infinite;
+}
+
+@keyframes technologie2 {
+    0% {
+        color: black;
+    }
+    30% {
+        color: #ff8c00;
+    }
+    70% {
+        color: #ff8c00;
+    }
+    100% {
+        color: black;
+    }
+}
+
+#technologie2{
+    animation: technologie2 6s infinite;
+}
+
+@keyframes technologie3 {
+    0% {
+        color: black;
+    }
+    30% {
+        color: #ffae00;
+    }
+    70% {
+        color: #ffae00;
+    }
+    100% {
+        color: black;
+    }
+}
+
+#technologie3 {
+    animation: technologie3 6s infinite;
+}
+
+@keyframes technologie4 {
+    0% {
+        color: black;
+    }
+    30% {
+        color: #00c3ff;
+    }
+    70% {
+        color: #00c3ff;
+    }
+    100% {
+        color: black;
+    }
+}
+
+#technologie4{
+    animation: technologie4 6s infinite;
 }
 
 /* Header Area */
@@ -68,18 +144,23 @@ header {
     transition: background-color 0.8s ease;
 }
 
+#button-certificates:hover {
+    background-color: #ffae00;
+}
+
 /* Área principal */
 
 main {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 85vh;
-    width: 50vw;
 }
 
 #main-content {
     display: flex;
     flex-direction: column;
+    width: 50vw;
 }
 
 #main-text {
@@ -117,4 +198,12 @@ main {
 
 #button-text a {
     padding: 5px 95px;
+}
+
+/* Área principal - lado direito */
+
+#technologies-content {
+    display: flex;
+    font-size: 100px;
+    gap: 60px;
 }
