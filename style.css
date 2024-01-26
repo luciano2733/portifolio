@@ -207,3 +207,9 @@ main {
     font-size: 100px;
     gap: 60px;
 }
+
+#technologies-content p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
